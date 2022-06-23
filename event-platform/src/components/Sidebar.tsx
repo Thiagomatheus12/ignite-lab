@@ -11,7 +11,6 @@ const GET_LESSONS_QUERY = gql`
         availableAt
   }
 }
-
 `
 interface GetLessonsQueryResponse {
     lessons: {
